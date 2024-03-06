@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="Imagens/scan_security_scanning_scanner_barcode_qr_code_icon_261488.png" type="image/x-icon">
+</head>
+<body>
+    <main class="apresentacao">
+        <reader class="cabecalho">
+            <img src="Imagens/scan_security_scanning_scanner_barcode_qr_code_icon_261488.png" alt="Icone">
+            <h1 class="texto">Decodificador de Mensagens</h1>
+        </reader>
+        
+        <div class="caixa-botao">
+        <div class="botao">
+            <textarea  id="inserir-texto" placeholder="Digite seu texto aqui:"></textarea>
+            <p class="frase" >Somente letras maiusculas e sem acento</p>
+        </div>
+            <div id="resultado">
+                <img src="Imagens/poster-do-programador_1308-114347.jpg" alt="imagem computador">
+                <h2>Veja aqui a sua mensagem!</h2>
+            
+        </div>
+    </div>
+        
+        </div>
+            <div class="caixa">
+                <button onclick="criptografar()" class="criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="descriptografar"> Descriptografar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="icone">
+            <a href=""></a>
+        </div>
+        <h3>Desenvolvido por Michelle Braga</h3>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

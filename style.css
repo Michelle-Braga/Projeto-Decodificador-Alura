@@ -1,0 +1,128 @@
+:root {
+    --cor-primaria: #402B3A;
+    --cor-secundaria: #ceb4b6;
+    --cor-terciaria: #D63484;
+}
+*{
+     margin:0;
+     padding: 0;
+}
+    
+    
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:rgb(233, 214, 214)
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: left;
+    padding: 2%;
+    
+}
+
+.texto{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+.caixa-botao{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+}
+#inserir-texto{
+    width: 400px;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: var(--cor-primaria);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+.botao{
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.imagem{
+    display: flex;
+    justify-content:space-between
+}
+#resultado{
+    display: flex;
+    border: 3px solid var(--cor-terciaria);
+    border-radius: 20px;
+    width: 475px;
+    height: 450px;
+    margin-right: 5%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+
+    
+
+}
+.resultado img{
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+}
+.boto-esquerdo caixa{
+    border: 2px solid var(--cor-primaria);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7c0160;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+.rodape{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 0%;
+    margin-top: 15px ;
+    background:var(--cor-terciaria) ;
+    color: var(--cor-primaria);
+}
+.icone{
+    width: 25px;
+    height: 25px;
+    color: var(--cor-primaria);
+}
+.criptografar{
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7c0160;
+    width: 150px;
+    height: 50px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+.descriptografar{
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7c0160;
+    width: 150px;
+    height: 50px;
+    margin-left: 2%;
+    cursor: pointer;
+}
